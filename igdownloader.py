@@ -25,8 +25,8 @@ WebDriverWait(driver, delay).until(EC.presence_of_element_located(
 un = driver.find_element_by_css_selector("input[name='username']")
 pd = driver.find_element_by_css_selector("input[name='password']")
 
-un.send_keys('pakkoda_user')
-pd.send_keys('emmelclothing@262001')
+un.send_keys('USER')
+pd.send_keys('PD')
 # need to send un pd values
 
 
